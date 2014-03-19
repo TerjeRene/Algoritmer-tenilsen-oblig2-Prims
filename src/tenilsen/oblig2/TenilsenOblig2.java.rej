@@ -1,0 +1,22 @@
+diff a/src/tenilsen/oblig2/TenilsenOblig2.java b/src/tenilsen/oblig2/TenilsenOblig2.java	(rejected hunks)
+@@ -96,19 +82,7 @@
+          }
+     }
+   
+-    private static void printMatrix(int[][] matrix) {
+-        if (printMatrix) {
+-            System.out.print("\n");
+-            for (int w = 0; w < matrixSize; w++) {
+-                for (int i = 0; i < matrixSize; i++)
+-                {
+-                    System.out.print(matrix[w][i] + " ");
+-                }
+-                System.out.print("\n");
+-            }
+-            System.out.print("\n");
+-       } 
+-    }
++   
+     
+     private static void doPrintDebug(String stringToPrint) {
+         if (printDebug) {
